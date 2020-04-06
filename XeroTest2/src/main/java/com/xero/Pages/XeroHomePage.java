@@ -19,6 +19,7 @@ public class XeroHomePage extends TestXeroBase {
 	WebElement xeroLogo;
 	
 	//Initializing the page objects
+	//checking git push to see if this comment gets added
 	public XeroHomePage() {
 		PageFactory.initElements(driver, this);
 	}
