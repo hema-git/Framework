@@ -51,7 +51,7 @@ public class TestXeroLogin extends TestXeroBase {
 	@Test(description="this tests verifies the welcome message")
 	public void TC_verifyLoginPageWelcomeMessageTest() {
 		String welcomeMsg=xeroLoginObj.validateLoginPageWelcomeMessage();
-		Assert.assertEquals(welcomeMsg, "Welcome to zero");
+		Assert.assertEquals(welcomeMsg, "Welcome to Xero");
 		logger.log(Status.PASS, "Xero application login page welcome message is displayed");
 	}
 	

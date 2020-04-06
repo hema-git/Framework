@@ -11,7 +11,8 @@ public class ExcelData {
 	
 	public ExcelData() {
 		
-		File src =new File("C:\\hema\\Selenium\\MavenProject\\Xero\\XeroTest2\\src\\main\\java\\com\\xero\\testdata\\XeroLogin.xlsx");
+		//File src =new File("C:\\hema\\Selenium\\MavenProject\\Xero\\XeroTest2\\src\\main\\java\\com\\xero\\testdata\\XeroLogin.xlsx");
+		File src=new File("C:\\HemaGit\\GitRepos\\XeroFramework\\Framework\\XeroTest2\\src\\main\\java\\com\\xero\\testdata\\XeroLogin.xlsx");
 		FileInputStream fis;
 		try {
 			fis = new FileInputStream(src);

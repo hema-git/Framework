@@ -6,7 +6,7 @@
 
 	<test name="Xero application test cases">
 		<classes>
-			<class name="com.xero.TestCases.TestXeroHomePage2">
+			<class name="com.xero.TestCases.TestXeroHomePage">
 			</class>
 
 			<class name="com.xero.TestCases.TestXeroLogin">

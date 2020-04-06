@@ -36,7 +36,8 @@ public class TestXeroBase {
 		try {
 			
 			prop=new Properties();
-			FileInputStream ip=new FileInputStream("C:\\hema\\Selenium\\MavenProject\\Xero\\XeroTest2\\src\\main\\java\\com\\xero\\config\\config.properties");
+			//FileInputStream ip=new FileInputStream("C:\\hema\\Selenium\\MavenProject\\Xero\\XeroTest2\\src\\main\\java\\com\\xero\\config\\config.properties");
+			FileInputStream ip=new FileInputStream("C:\\HemaGit\\GitRepos\\XeroFramework\\Framework\\XeroTest2\\src\\main\\java\\com\\xero\\config\\config.properties");
 			prop.load(ip);
 			
 		}catch(FileNotFoundException fnf) {
