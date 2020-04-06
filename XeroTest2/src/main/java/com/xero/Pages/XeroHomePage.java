@@ -37,5 +37,4 @@ public class XeroHomePage extends TestXeroBase {
 		LoginBtn.click();
 		return new XeroLogin();
 	}
-	
 }
