@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Xero application Test Automation Test Suite]" parallel="tests">
+  <test thread-count="5" name="Xero application test cases(failed)" parallel="tests">
+    <classes>
+      <class name="com.xero.TestCases.TestXeroLogin">
+        <methods>
+          <include name="newTest"/>
+          <include name="getScreenshot"/>
+          <include name="createReport"/>
+          <include name="tearDown"/>
+          <include name="TC_verifyLoginPageWelcomeMessageTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.xero.TestCases.TestXeroLogin -->
+    </classes>
+  </test> <!-- Xero application test cases(failed) -->
+</suite> <!-- Failed suite [Xero application Test Automation Test Suite] -->

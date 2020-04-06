@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Xero application Test Automation Test Suite"
+	annotations="JDK" parallel="tests" preserve-order="true">
+
+	<test name="Xero application test cases">
+		<classes>
+			<class name="com.xero.TestCases.TestXeroHomePage2">
+			</class>
+
+			<class name="com.xero.TestCases.TestXeroLogin">
+				<methods>
+					<include name="TC_verifyLoginPageWelcomeMessageTest">
+					</include>
+				</methods>
+
+			</class>
+		</classes>
+	</test>
+</suite>

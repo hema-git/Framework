@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Xero_application_Test_Automation_Test_Suite">
+              <span class="suite-name border-failed">Xero application Test Automation Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Xero_application_Test_Automation_Test_Suite">
+                    <span>C:\hema\Selenium\MavenProject\Xero\XeroTest2\src\main\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Xero_application_Test_Automation_Test_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Xero_application_Test_Automation_Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Xero_application_Test_Automation_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Xero_application_Test_Automation_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Xero_application_Test_Automation_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Xero_application_Test_Automation_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Xero_application_Test_Automation_Test_Suite" class="hide-methods failed suite-Xero_application_Test_Automation_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Xero_application_Test_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-Xero_application_Test_Automation_Test_Suite" class="show-methods failed suite-Xero_application_Test_Automation_Test_Suite"> (show)</a> <!-- show-methods failed suite-Xero_application_Test_Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Xero_application_Test_Automation_Test_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Xero_application_Test_Automation_Test_Suite" title="com.xero.TestCases.TestXeroLogin" hash-for-method="TC_verifyLoginPageWelcomeMessageTest">TC_verifyLoginPageWelcomeMessageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Xero_application_Test_Automation_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Xero_application_Test_Automation_Test_Suite" class="hide-methods passed suite-Xero_application_Test_Automation_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Xero_application_Test_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-Xero_application_Test_Automation_Test_Suite" class="show-methods passed suite-Xero_application_Test_Automation_Test_Suite"> (show)</a> <!-- show-methods passed suite-Xero_application_Test_Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Xero_application_Test_Automation_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Xero_application_Test_Automation_Test_Suite" title="com.xero.TestCases.TestXeroHomePage2" hash-for-method="TC_verifyHomePageNextLandingTest">TC_verifyHomePageNextLandingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Xero_application_Test_Automation_Test_Suite" title="com.xero.TestCases.TestXeroHomePage2" hash-for-method="TC_verifyHomePageTitleTest(public void com.xero.TestCases.TestXeroHomePage2.TC_verifyHomePageTitleTest(java.lang.reflect.Method...)">TC_verifyHomePageTitleTest(public void com.xero.TestCases.TestXeroHomePage2.TC_verifyHomePageTitleTest(java.lang.reflect.Method...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Xero_application_Test_Automation_Test_Suite" title="com.xero.TestCases.TestXeroHomePage2" hash-for-method="TC_verifyHomePageXeroImgTest">TC_verifyHomePageXeroImgTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Xero_application_Test_Automation_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Xero_application_Test_Automation_Test_Suite" class="panel Xero_application_Test_Automation_Test_Suite">
+          <div class="suite-Xero_application_Test_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.xero.TestCases.TestXeroLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_verifyLoginPageWelcomeMessageTest">
+                  </a> <!-- TC_verifyLoginPageWelcomeMessageTest -->
+                  <span class="method-name">TC_verifyLoginPageWelcomeMessageTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Welcome to zero] but found [Welcome to Xero]
+	at com.xero.TestCases.TestXeroLogin.TC_verifyLoginPageWelcomeMessageTest(TestXeroLogin.java:54)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(this tests verifies the welcome message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Xero_application_Test_Automation_Test_Suite-class-failed -->
+          <div class="suite-Xero_application_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.xero.TestCases.TestXeroHomePage2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_verifyHomePageNextLandingTest">
+                  </a> <!-- TC_verifyHomePageNextLandingTest -->
+                  <span class="method-name">TC_verifyHomePageNextLandingTest</span>
+                  <em>
+(this test is going to check if the login btn lands on the login page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_verifyHomePageTitleTest(public void com.xero.TestCases.TestXeroHomePage2.TC_verifyHomePageTitleTest(java.lang.reflect.Method...)">
+                  </a> <!-- TC_verifyHomePageTitleTest(public void com.xero.TestCases.TestXeroHomePage2.TC_verifyHomePageTitleTest(java.lang.reflect.Method...) -->
+                  <span class="method-name">TC_verifyHomePageTitleTest</span>
+                  <span class="parameters">(public void com.xero.TestCases.TestXeroHomePage2.TC_verifyHomePageTitleTest(java.lang.reflect.Method))</span>
+                  <em>
+(this test verifies that the main page has been loaded)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_verifyHomePageXeroImgTest">
+                  </a> <!-- TC_verifyHomePageXeroImgTest -->
+                  <span class="method-name">TC_verifyHomePageXeroImgTest</span>
+                  <em>
+(this test is going to verify the logo on the main page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Xero_application_Test_Automation_Test_Suite-class-passed -->
+        </div> <!-- panel Xero_application_Test_Automation_Test_Suite -->
+        <div panel-name="test-xml-Xero_application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\hema\Selenium\MavenProject\Xero\XeroTest2\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Xero application Test Automation Test Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Xero application test cases&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.xero.TestCases.TestXeroHomePage2&quot;/&gt;
+      &lt;class name=&quot;com.xero.TestCases.TestXeroLogin&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;TC_verifyLoginPageWelcomeMessageTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.xero.TestCases.TestXeroLogin --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Xero application test cases --&gt;
+&lt;/suite&gt; &lt;!-- Xero application Test Automation Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Xero_application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Xero application Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Xero application test cases (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Xero_application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Xero application Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Xero_application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Xero application Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Xero_application_Test_Automation_Test_Suite');
+function tableData_Xero_application_Test_Automation_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_verifyHomePageNextLandingTest')
+data.setCell(0, 2, 'com.xero.TestCases.TestXeroHomePage2')
+data.setCell(0, 3, 2977);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_verifyHomePageXeroImgTest')
+data.setCell(1, 2, 'com.xero.TestCases.TestXeroHomePage2')
+data.setCell(1, 3, 1162);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_verifyLoginPageWelcomeMessageTest')
+data.setCell(2, 2, 'com.xero.TestCases.TestXeroLogin')
+data.setCell(2, 3, 94);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_verifyHomePageTitleTest')
+data.setCell(3, 2, 'com.xero.TestCases.TestXeroHomePage2')
+data.setCell(3, 3, 53);
+window.suiteTableData['Xero_application_Test_Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-Xero_application_Test_Automation_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
+              <div id="times-div-Xero_application_Test_Automation_Test_Suite">
+              </div> <!-- times-div-Xero_application_Test_Automation_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Xero_application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Xero application Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Xero_application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.xero.TestCases.TestXeroLogin</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">TC_verifyLoginCredentialsTest</span>
+                <br/>
+                <span class="ignored-method-name">TC_verifyLoginPageLogoTest</span>
+                <br/>
+                <span class="ignored-method-name">createReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Xero_application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xero.TestCases.TestXeroHomePage2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">createReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">newTest</span>
+                <span class="method-start">203 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">219 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_verifyHomePageNextLandingTest</span>
+                <span class="method-start">8409 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11390 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">13494 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_verifyHomePageTitleTest(public void com.xero.TestCases.TestXeroHomePage2.TC_verifyHomePageTitleTest(java.lang.reflect.Method...)</span>
+                <span class="method-start">22138 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22198 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">23274 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_verifyHomePageXeroImgTest</span>
+                <span class="method-start">30439 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31603 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xero.TestCases.TestXeroLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">newTest</span>
+                <span class="method-start">32651 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">32652 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_verifyLoginPageWelcomeMessageTest</span>
+                <span class="method-start">41398 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getScreenshot([TestResult name=TC_verifyLoginPageWelcomeMessageTest status=FAILURE method=TestXeroLogin.TC_verifyL...)</span>
+                <span class="method-start">41496 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43692 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
