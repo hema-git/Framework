@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -47,6 +48,7 @@ public class TestXeroBase {
 		}	
 	}
 	
+	
 	public static void initialization() {
 		String browserName=prop.getProperty("browser");
 		if(browserName.equals("chrome")) {
@@ -64,6 +66,7 @@ public class TestXeroBase {
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT,TimeUnit.SECONDS);
 		
 		driver.get(prop.getProperty("url"));
+		
 		
 		
 	}

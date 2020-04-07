@@ -17,13 +17,7 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
-			<scope>test</scope>
-		</dependency>
-
+		
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -89,6 +83,10 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>C:\HemaGit\GitRepos\XeroFramework\Framework\XeroTest2\src\main\resources\testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
+					
+					<systemPropertyVariables>
+					<mvnURLName>${urlToOpen}</mvnURLName>
+					</systemPropertyVariables>
 				</configuration>
 			</plugin>
 			
